@@ -1,0 +1,13 @@
+name: astrbot_plugin_chatframe
+display_name: 霞沢涟的聊天框工作室
+desc: 将 QQ 中的机器人文字回复排版为聊天框图片，支持工作室的 .mscene 模板。
+version: 0.1.0
+author: 聊天框工作室
+repo: https://github.com/XIuMuBoZuo/astrbot-plugin-chatframe
+astrbot_version: ">=4.0.0"
+support_platforms:
+  - aiocqhttp
+tags:
+  - chatframe
+  - image
+  - qq

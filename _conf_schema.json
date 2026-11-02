@@ -1,0 +1,26 @@
+{
+  "enabled": {
+    "description": "自动将回复转为聊天框图片",
+    "type": "bool",
+    "default": false,
+    "hint": "开启后，在支持的 QQ 消息路径中把文字转为图片；关闭时保留原样。"
+  },
+  "template_path": {
+    "description": "自定义 .mscene 模板的绝对路径",
+    "type": "string",
+    "default": "",
+    "hint": "留空使用内置模板。填写机器人运行环境中可访问的 .mscene 文件路径。"
+  },
+  "only_ai_replies": {
+    "description": "只转换 AI 回复",
+    "type": "bool",
+    "default": true,
+    "hint": "关闭后也会处理经过该插件钩子的普通文字回复。"
+  },
+  "python_executable": {
+    "description": "Python 解释器路径（可选）",
+    "type": "string",
+    "default": "",
+    "hint": "通常留空。若宿主是打包程序，请填写安装了 Pillow 的 Python 绝对路径。"
+  }
+}
